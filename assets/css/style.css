@@ -1,0 +1,128 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.row #sideleft .header h1 {
+  color: white;
+  font-size: 20px;
+  margin-top: 31px;
+  margin-left: 42px;
+}
+
+.row #sideleft .body {
+  margin-top: 180px;
+  margin-left: 92px;
+  color: white;
+}
+
+.body h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.body h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 52px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.row #sideleft .text {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.row #sideleft {
+  background: url(/assets/img/brand.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sideright input {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #f0efff;
+  color: #a7a3ff;
+}
+
+#sideright input::placeholder {
+  color: #a7a3ff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#sideright button {
+  background: #4d47c3;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#sideright img {
+  width: 41.46px;
+  height: 41.46px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.menu {
+  background: #047aec;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list:hover {
+  background: #099bfb;
+}
+
+.menu .list a {
+  color: white;
+}
+
+.card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.menu .list a:hover {
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #333;
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.from-group label {
+  display: block;
+}
